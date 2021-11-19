@@ -1,4 +1,4 @@
-# Implementation for [PointRCNN](https://github.com/sshaoshuai/PointRCNN) 
+# Implementation of Attentive Prototypes for SFUDA of [PointRCNN](https://github.com/sshaoshuai/PointRCNN) 
 
 Data processing steps from [this codebase](https://github.com/cxy1997/3D_adapt_auto_driving) by [Wang et al](https://arxiv.org/abs/2005.08139)
 
