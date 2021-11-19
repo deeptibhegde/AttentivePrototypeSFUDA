@@ -91,6 +91,6 @@ python -m pcdet.datasets.waymo.waymo_dataset --func create_waymo_infos  --cfg_fi
 2.  Evaluate a single checkpoint
 
 ```
-python test.py --cfg cfgs/$PATH_TO_CONFIG_FILE --batch_size 16   --extra_tag $NAME --ckpt $PATH_TO_CKPT
+python test.py --cfg cfgs/${PATH_TO_CONFIG_FILE} --batch_size 16   --extra_tag ${NAME} --ckpt ${PATH_TO_CKPT}
 ```
   
