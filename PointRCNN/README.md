@@ -68,7 +68,7 @@ You will need
 
 
 
-### Run inference the model for a single checkpoint
+### Run inference on the model for a single checkpoint
 
 2. Generate predictions and calculate recall
 
@@ -95,7 +95,7 @@ You will need
     
     
  
-### Run inference the model for all checkpoints
+### Run inference on the model for all checkpoints
 
 4. Generate predictions and calculate recall
 
