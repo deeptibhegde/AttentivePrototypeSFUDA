@@ -66,7 +66,11 @@ You will need
 
 1. Download the pretrained models.
 
-2. Run inference the model for a single checkpoint
+
+
+### Run inference the model for a single checkpoint
+
+2. Generate predictions and calculate recall
 
    ```
    cd pointrcnn_attention/tools
@@ -91,7 +95,9 @@ You will need
     
     
  
-4. Run inference the model for all checkpoints
+### Run inference the model for all checkpoints
+
+4. Generate predictions and calculate recall
 
    ```
    cd pointrcnn_attention/tools
