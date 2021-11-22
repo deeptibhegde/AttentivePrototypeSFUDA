@@ -60,5 +60,26 @@ AttentivePrototypeSFUDA
 We implement the proposed method for two object detectors, [SECOND-iou](/secondiou/) and [PointRCNN](/pointrcnn/) for several domain shift scenarios. You can find the folder of pretrained models [here](). Find specific model downloads and their corresponding config files below.
 
 
+| SECOND-iou |
+-------------------------------------------------
+| Domain shif | Model file  | Configuration file |
+| ----------- | ----------- | -------------------|
+| Waymo  -> KITTI| [link]()       | [link]() |
+|  Waymo  -> nuScenes | [link]()        | [link]() |
+|  nuScenes -> KITTI| [link]()        | [link]() |
+
+
+
+
+| PointRCNN |
+--------------------------------------------------
+| Domain shif | Model file  | Configuration file |
+| ----------- | ----------- | -------------------|
+| Waymo  -> KITTI| [link]()       | [link]() |
+|  KITTI  -> nuScenes | [link]()        | [link]() |
+|  nuScenes -> KITTI| [link]()        | [link]() |
+
+
+Follow the instructions to implement the method in [SECOND-iou](SECOND-iou/README.md) and [PointRCNN](PointRCNN/README.md)
 
 
