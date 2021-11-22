@@ -39,7 +39,7 @@ You will need
 4. Build SECOND-iou
 
   ```
-  cd secondiou_attention
+  cd pcdet
  ```
 
   ```
