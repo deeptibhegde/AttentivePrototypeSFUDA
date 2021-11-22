@@ -15,9 +15,10 @@ PyTorch code release of the paper "Attentive Prototypes for Source-free Unsuperv
 2. Organize each folder inside [data](/data/) like the following
 
 
-'''
+```
 AttentivePrototypeSFUDA
-├── data (main data folder)
+
+├── data (main data folder)```
 │   ├── kitti
 │   │   │── ImageSets
 │   │   │── training
@@ -53,10 +54,7 @@ AttentivePrototypeSFUDA
 |   ├── data (link to main data folder)
 |   ├── pcdet
 |   ├── tools
-
-
-
-'''
+```
 
 
 We implement the proposed method for two object detectors, [SECOND-iou](/secondiou/) and [PointRCNN](/pointrcnn/) for several domain shift scenarios. You can find the folder of pretrained models [here](). Find specific model downloads and their corresponding config files below.
