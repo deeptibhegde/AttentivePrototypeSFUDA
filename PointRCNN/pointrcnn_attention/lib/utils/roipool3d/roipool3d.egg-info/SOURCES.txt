@@ -1,0 +1,7 @@
+setup.py
+roipool3d.egg-info/PKG-INFO
+roipool3d.egg-info/SOURCES.txt
+roipool3d.egg-info/dependency_links.txt
+roipool3d.egg-info/top_level.txt
+src/roipool3d.cpp
+src/roipool3d_kernel.cu
