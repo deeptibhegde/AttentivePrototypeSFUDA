@@ -7,6 +7,7 @@ PyTorch code release of the paper "Attentive Prototypes for Source-free Unsuperv
 
 (Currently supports model inference and evaluation only, training steps to be updated soon.)
 
+Follow the instructions for installation and implementation of the method in the folders [SECOND-iou](SECOND-iou/README.md) and [PointRCNN](PointRCNN/README.md)
 
 # Dataset preperation
 
@@ -80,6 +81,6 @@ We implement the proposed method for two object detectors, [SECOND-iou](/secondi
 |  nuScenes -> KITTI| [download](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dhegde1_jh_edu/EQJ-IusineZLvjpjo5iOJ7ABwPUZ-Mh_mYVrODx8lPX6Eg?e=eAnf0c)        | [link](PointRCNN/pointrcnn_attention/tools/cfgs/default.yaml) |
 
 
-Follow the instructions to implement the method in [SECOND-iou](SECOND-iou/README.md) and [PointRCNN](PointRCNN/README.md)
+Follow the instructions to implement the method in the folders [SECOND-iou](SECOND-iou/README.md) and [PointRCNN](PointRCNN/README.md)
 
 
