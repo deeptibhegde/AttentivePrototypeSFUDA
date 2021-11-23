@@ -64,9 +64,9 @@ We implement the proposed method for two object detectors, [SECOND-iou](/secondi
 -------------------------------------------------
 | Domain shif | Model file  | Configuration file |
 | ----------- | ----------- | -------------------|
-| Waymo  -> KITTI| [link]()       | [link]() |
-|  Waymo  -> nuScenes | [link]()        | [link]() |
-|  nuScenes -> KITTI| [link]()        | [link]() |
+| Waymo  -> KITTI| [link](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dhegde1_jh_edu/EaF3HPR91A5OqRnTCD3sKw4Bw0HbWHVaF3mRrBdM9ybS-g?e=f9UurE)       | [link]() |
+|  Waymo  -> nuScenes | [link](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dhegde1_jh_edu/EaF3HPR91A5OqRnTCD3sKw4Bw0HbWHVaF3mRrBdM9ybS-g?e=f9UurE)        | [link]() |
+|  nuScenes -> KITTI| [link](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dhegde1_jh_edu/EUC7cRbRwuNOp11bUqXhOXgB5uGwuBmF1zP0R8cW2BPZJQ?e=qduaqy)        | [link]() |
 
 
 
@@ -75,9 +75,9 @@ We implement the proposed method for two object detectors, [SECOND-iou](/secondi
 --------------------------------------------------
 | Domain shif | Model file  | Configuration file |
 | ----------- | ----------- | -------------------|
-| Waymo  -> KITTI| [link]()       | [link]() |
-|  KITTI  -> nuScenes | [link]()        | [link]() |
-|  nuScenes -> KITTI| [link]()        | [link]() |
+| Waymo  -> KITTI| [link](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dhegde1_jh_edu/EWS-zL0tDItOurHL8DV18AgB92kQDBRcocIJ3PpuDwSamw?e=Zl4dtm)       | [link]() |
+|  KITTI  -> nuScenes | [link](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dhegde1_jh_edu/ERAV9hreSSBGqLIFXD7xsB0B8zNaE6CDjlGHYnuKXZbBWw?e=25r0d6)        | [link]() |
+|  nuScenes -> KITTI| [link](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dhegde1_jh_edu/EQJ-IusineZLvjpjo5iOJ7ABwPUZ-Mh_mYVrODx8lPX6Eg?e=eAnf0c)        | [link]() |
 
 
 Follow the instructions to implement the method in [SECOND-iou](SECOND-iou/README.md) and [PointRCNN](PointRCNN/README.md)
