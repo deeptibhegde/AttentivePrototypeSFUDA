@@ -58,7 +58,7 @@ AttentivePrototypeSFUDA
 ```
 
 
-We implement the proposed method for two object detectors, [SECOND-iou](/secondiou/) and [PointRCNN](/pointrcnn/) for several domain shift scenarios. You can find the folder of pretrained models [here](). Find specific model downloads and their corresponding config files below.
+We implement the proposed method for two object detectors, [SECOND-iou](/secondiou/) and [PointRCNN](/pointrcnn/) for several domain shift scenarios. You can find the folder of pretrained models [here](https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/dhegde1_jh_edu/Ek8wCl9HePRLiuYNlJeKt60BEjqn1NXE4QL3mss_leq_-w?e=RSuT6f). Find specific model downloads and their corresponding config files below.
 
 
 | SECOND-iou |
