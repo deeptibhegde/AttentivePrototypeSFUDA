@@ -5,7 +5,7 @@ PyTorch code release of the paper "Attentive Prototypes for Source-free Unsuperv
 ![image](/imgs/main_final_2.drawio.jpg)
 
 
-(Currently supports model inference and evaluation only, training steps to be updated soon.)
+(Currently has instructions for model inference and evaluation only, training steps to be updated soon.)
 
 Follow the instructions for installation and implementation of the method in the folders [SECOND-iou](SECOND-iou/README.md) and [PointRCNN](PointRCNN/README.md)
 
@@ -58,16 +58,16 @@ AttentivePrototypeSFUDA
 ```
 
 
-We implement the proposed method for two object detectors, [SECOND-iou](/secondiou/) and [PointRCNN](/pointrcnn/) for several domain shift scenarios. You can find the folder of pretrained models [here](https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/dhegde1_jh_edu/Ek8wCl9HePRLiuYNlJeKt60BEjqn1NXE4QL3mss_leq_-w?e=RSuT6f). Find specific model downloads and their corresponding config files below.
+We implement the proposed method for two object detectors, [SECOND-iou](/secondiou/) and [PointRCNN](/pointrcnn/) for several domain shift scenarios. You can find the folder of pretrained models [here](https://drive.google.com/drive/folders/1nbh1LdYdNdinYg0xP4MPreW-RkaGznNE?usp=sharing). Find specific model downloads and their corresponding config files below.
 
 
 | SECOND-iou |
 -------------------------------------------------
 | Domain shif | Model file  | Configuration file |
 | ----------- | ----------- | -------------------|
-| Waymo  -> KITTI| [download](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dhegde1_jh_edu/EaF3HPR91A5OqRnTCD3sKw4Bw0HbWHVaF3mRrBdM9ybS-g?e=f9UurE)       | [link](SECOND-iou/tools/cfgs/kitti_models/secondiou_oracle_ros.yaml) |
-|  Waymo  -> nuScenes | [download](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dhegde1_jh_edu/EaF3HPR91A5OqRnTCD3sKw4Bw0HbWHVaF3mRrBdM9ybS-g?e=f9UurE)        | [link](SECOND-iou/tools/cfgs/nuscenes_models/secondiou_car_oracle.yaml) |
-|  nuScenes -> KITTI| [download](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dhegde1_jh_edu/EUC7cRbRwuNOp11bUqXhOXgB5uGwuBmF1zP0R8cW2BPZJQ?e=qduaqy)        | [link](SECOND-iou/tools/cfgs/kitti_models/secondiou_oracle_ros.yaml) |
+| Waymo  -> KITTI| [download](https://drive.google.com/file/d/1X58-Lfiyv9j8ORycQLXEWyYox4SYFuVt/view?usp=sharing) | [link](SECOND-iou/tools/cfgs/kitti_models/secondiou_oracle_ros.yaml) |
+|  Waymo  -> nuScenes | [download](https://drive.google.com/file/d/1HWpPGZLuB76C979QnfjWDJOGG_0_PhaS/view?usp=sharing)        | [link](SECOND-iou/tools/cfgs/nuscenes_models/secondiou_car_oracle.yaml) |
+|  nuScenes -> KITTI| [download](https://drive.google.com/file/d/1QSPyY8FjgjbMw1GlVmpGx6RThP2bQXDK/view?usp=sharing)        | [link](SECOND-iou/tools/cfgs/kitti_models/secondiou_oracle_ros.yaml) |
 
 
 
@@ -76,11 +76,10 @@ We implement the proposed method for two object detectors, [SECOND-iou](/secondi
 --------------------------------------------------
 | Domain shif | Model file  | Configuration file |
 | ----------- | ----------- | -------------------|
-| Waymo  -> KITTI| [download](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dhegde1_jh_edu/EWS-zL0tDItOurHL8DV18AgB92kQDBRcocIJ3PpuDwSamw?e=Zl4dtm)       | [link](PointRCNN/pointrcnn_attention/tools/cfgs/default.yaml) |
-|  KITTI  -> nuScenes | [download](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dhegde1_jh_edu/ERAV9hreSSBGqLIFXD7xsB0B8zNaE6CDjlGHYnuKXZbBWw?e=25r0d6)        | [link](PointRCNN/pointrcnn_attention/tools/cfgs/default.yaml) |
-|  nuScenes -> KITTI| [download](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/dhegde1_jh_edu/EQJ-IusineZLvjpjo5iOJ7ABwPUZ-Mh_mYVrODx8lPX6Eg?e=eAnf0c)        | [link](PointRCNN/pointrcnn_attention/tools/cfgs/default.yaml) |
+| Waymo  -> KITTI| [download](https://drive.google.com/file/d/1O4bhgdlqkgYIXY2aEYRLejbWnWwPbvfv/view?usp=sharing)       | [link](PointRCNN/pointrcnn_attention/tools/cfgs/default.yaml) |
+|  KITTI  -> nuScenes | [download](https://drive.google.com/file/d/1bvdmnSQPEds2St9g7QJnJkkcUyY2Ye8V/view?usp=sharing)        | [link](PointRCNN/pointrcnn_attention/tools/cfgs/default.yaml) |
+|  nuScenes -> KITTI| [download](https://drive.google.com/file/d/1VptyJk3j62s22IP_3R9SzBoWhErz07Ov/view?usp=sharing)        | [link](PointRCNN/pointrcnn_attention/tools/cfgs/default.yaml) |
 
 
 Follow the instructions to implement the method in the folders [SECOND-iou](SECOND-iou/README.md) and [PointRCNN](PointRCNN/README.md)
-
 
