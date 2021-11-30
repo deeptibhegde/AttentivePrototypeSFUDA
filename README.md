@@ -9,7 +9,7 @@ by [Deepti Hegde](https://deeptibhegde.github.io), [Vishal Patel](https://engine
 
 (Currently has instructions for model inference and evaluation only, training steps to be updated soon.)
 
-Follow the instructions for installation and implementation of the method in the folders [SECOND-iou](/SECOND-iou/) and [PointRCNN](/PointRCNN/)
+Follow the instructions for installation and implementation of the method for each base object detection network in the respective folders [SECOND-iou](/SECOND-iou/) and [PointRCNN](/PointRCNN/)
 
 # Dataset preperation
 
