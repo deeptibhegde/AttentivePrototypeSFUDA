@@ -21,7 +21,7 @@ Follow the instructions for installation and implementation of the method for ea
 ```
 AttentivePrototypeSFUDA
 
-├── data (main data folder)```
+├── data (main data folder)
 │   ├── kitti
 │   │   │── ImageSets
 │   │   │── training
