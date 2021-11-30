@@ -3,6 +3,7 @@
 PyTorch code release of the paper "Attentive Prototypes for Source-free Unsupervised Domain Adaptive 3D Object Detection",
 
 [Deepti Hegde](https://deeptibhegde.github.io), [Vishal Patel](https://engineering.jhu.edu/vpatel36/sciencex_teams/vishalpatel/),
+
 Johns Hopkins University
 
 ![image](/imgs/main_final_2.drawio.jpg)
@@ -10,7 +11,7 @@ Johns Hopkins University
 
 (Currently has instructions for model inference and evaluation only, training steps to be updated soon.)
 
-Follow the instructions for installation and implementation of the method in the folders [SECOND-iou](SECOND-iou/README.md) and [PointRCNN](PointRCNN/README.md)
+Follow the instructions for installation and implementation of the method in the folders [SECOND-iou](/SECOND-iou/) and [PointRCNN](/PointRCNN/)
 
 # Dataset preperation
 
