@@ -2,6 +2,9 @@
 
 PyTorch code release of the paper "Attentive Prototypes for Source-free Unsupervised Domain Adaptive 3D Object Detection",
 
+[Deepti Hegde](https://deeptibhegde.github.io), [Vishal Patel](https://engineering.jhu.edu/vpatel36/sciencex_teams/vishalpatel/),
+Johns Hopkins University
+
 ![image](/imgs/main_final_2.drawio.jpg)
 
 
