@@ -65,7 +65,7 @@ We implement the proposed method for two object detectors, [SECOND-iou](/secondi
 
 | SECOND-iou |
 -------------------------------------------------
-| Domain shif | Model file  | Configuration file |
+| Domain shift | Model file  | Configuration file |
 | ----------- | ----------- | -------------------|
 | Waymo  -> KITTI| [download](https://drive.google.com/file/d/1X58-Lfiyv9j8ORycQLXEWyYox4SYFuVt/view?usp=sharing) | [link](SECOND-iou/tools/cfgs/kitti_models/secondiou_oracle_ros.yaml) |
 |  Waymo  -> nuScenes | [download](https://drive.google.com/file/d/1HWpPGZLuB76C979QnfjWDJOGG_0_PhaS/view?usp=sharing)        | [link](SECOND-iou/tools/cfgs/nuscenes_models/secondiou_car_oracle.yaml) |
@@ -76,7 +76,7 @@ We implement the proposed method for two object detectors, [SECOND-iou](/secondi
 
 | PointRCNN |
 --------------------------------------------------
-| Domain shif | Model file  | Configuration file |
+| Domain shift | Model file  | Configuration file |
 | ----------- | ----------- | -------------------|
 | Waymo  -> KITTI| [download](https://drive.google.com/file/d/1O4bhgdlqkgYIXY2aEYRLejbWnWwPbvfv/view?usp=sharing)       | [link](PointRCNN/pointrcnn_attention/tools/cfgs/default.yaml) |
 |  KITTI  -> nuScenes | [download](https://drive.google.com/file/d/1bvdmnSQPEds2St9g7QJnJkkcUyY2Ye8V/view?usp=sharing)        | [link](PointRCNN/pointrcnn_attention/tools/cfgs/default.yaml) |
