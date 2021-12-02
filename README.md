@@ -4,6 +4,8 @@ PyTorch code release of the paper "Attentive Prototypes for Source-free Unsuperv
 
 by [Deepti Hegde](https://deeptibhegde.github.io), [Vishal M. Patel](https://engineering.jhu.edu/vpatel36/sciencex_teams/vishalpatel/)
 
+[arxiv](https://arxiv.org/abs/2111.15656)
+
 ![image](/imgs/main_final_2.drawio.jpg)
 
 
