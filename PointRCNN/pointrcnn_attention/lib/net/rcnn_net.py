@@ -256,38 +256,6 @@ class RCNNNet(nn.Module):
 
 
 
-
-                #requires change
-                # rcnn_cls = rcnn_cls.view(rcnn_cls.shape[0],-1,1)
-                # import pdb; pdb.set_trace()
-                # for i in range(len(sim_weights)):
-                #     rcnn_cls[ind[0][i],0] *= sim_weights[i]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-        # import pdb; pdb.set_trace()
-
         if self.training:
             ret_dict.update(target_dict)
             return ret_dict, final_prototype
