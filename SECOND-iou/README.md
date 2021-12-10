@@ -1,6 +1,6 @@
 # Implementation of Attentive Prototypes for SFUDA of [SECOND-iou](https://github.com/open-mmlab/OpenPCDet/blob/master/tools/cfgs/kitti_models/second_iou.yaml) 
 
-Format of configuration files from [ST3D](https://github.com/CVMI-Lab/ST3D/tree/master/tools/cfgs)
+Format of configuration files from [ST3D](https://github.com/CVMI-Lab/ST3D/tree/master/tools/cfgs), based on the codebase from [OpenPCDet](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/GETTING_STARTED.md)
 
 ## Setup
 
