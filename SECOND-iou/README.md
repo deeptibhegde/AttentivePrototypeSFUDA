@@ -87,8 +87,9 @@ python -m pcdet.datasets.waymo.waymo_dataset --func create_waymo_infos  --cfg_fi
  # Evaluation
  
  1. Download the pretrained models.
+ 2. Edit the config file to evaluate on the approporiate target dataset (i.e. kitti, kitti-rain, kitti-snow, or kitti-fog)
 
-2.  Evaluate a single checkpoint
+3.  Evaluate a single checkpoint
 
 ```
 python test.py --cfg cfgs/${PATH_TO_CONFIG_FILE} --batch_size 16   --extra_tag ${NAME} --ckpt ${PATH_TO_CKPT}
