@@ -110,22 +110,22 @@ The entire training procedure may be divided into two stages: 1) source model tr
 
 ### Single GPU training
   ```
-    python train.py --cfg_file cfgs/da-waymo-kitti_models/secondiou/secondiou_cyc.yaml --extra_tag {PREFERRED NAME}
+    python tools/train.py --cfg_file tools/cfgs/da-waymo-kitti_models/secondiou/secondiou_cyc.yaml --extra_tag {PREFERRED NAME}
   ```
 ### Multi-GPU training
   ```
-    bash scripts/dist_train.sh {NUM_GPUS} --cfg_file cfgs/da-waymo-kitti_models/secondiou/secondiou_cyc.yaml --extra_tag {PREFERRED NAME}
+    bash tools/scripts/dist_train.sh {NUM_GPUS} --cfg_file tools/cfgs/da-waymo-kitti_models/secondiou/secondiou_cyc.yaml --extra_tag {PREFERRED NAME}
   ```
 
 ## Source-free domain adaptation
 
 Choose the best performing model from the previous step and use it as the source trained model. 
   ```
-    python train.py --cfg_file cfgs/da-waymo-kitti_models/secondiou_attproto/secondiou_proto_ros_cyc.yaml --extra_tag {PREFERRED NAME} --pretrained_model {SOURCE_MODEL_PATH}
+    python tools/train.py --cfg_file tools/cfgs/da-waymo-kitti_models/secondiou_attproto/secondiou_proto_ros_cyc.yaml --extra_tag {PREFERRED NAME} --pretrained_model {SOURCE_MODEL_PATH}
   ```
 
 # Testing
 
   ```
-    python test.py --cfg cfgs/${PATH_TO_CONFIG_FILE} --extra_tag {PREFERRED_NAME} --ckpt {PATH_TO_CKPT}
+    python tools/test.py --cfg tols/cfgs/${PATH_TO_CONFIG_FILE} --extra_tag {PREFERRED_NAME} --ckpt {PATH_TO_CKPT}
   ```
