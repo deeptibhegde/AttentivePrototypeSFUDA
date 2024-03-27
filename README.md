@@ -11,7 +11,7 @@ by [Deepti Hegde](https://deeptibhegde.github.io), [Vishal M. Patel](https://eng
 
 (Currently has instructions for model inference and evaluation only, training steps to be updated soon.)
 
-Follow the instructions for installation and implementation of the method for each base object detection network in the respective folders [SECOND-iou](/SECOND-iou/) and [PointRCNN](/PointRCNN/)
+Follow the instructions for installation from [ST3D](https://github.com/CVMI-Lab/ST3D)
 
 # Dataset preperation
 
