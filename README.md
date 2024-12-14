@@ -72,7 +72,7 @@ Follow the instructions for installation from [ST3D](https://github.com/CVMI-Lab
     │   │   │── pcdet_waymo_dbinfos_train_sampled_xx.pkl  
     
     ```
-## The below instructions are deprecated, please skip to [this section]([#Training](https://github.com/deeptibhegde/AttentivePrototypeSFUDA/edit/main/README.md#training))  for up-to-date instructions.
+
 
 We implement the proposed method for two object detectors, [SECOND-iou](/secondiou/) and [PointRCNN](/pointrcnn/) for several domain shift scenarios. You can find the folder of pretrained models [here](https://drive.google.com/drive/folders/1nbh1LdYdNdinYg0xP4MPreW-RkaGznNE?usp=sharing). Find specific model downloads and their corresponding config files below.
 
@@ -95,9 +95,6 @@ We implement the proposed method for two object detectors, [SECOND-iou](/secondi
 | Waymo  -> KITTI| [download](https://drive.google.com/file/d/1O4bhgdlqkgYIXY2aEYRLejbWnWwPbvfv/view?usp=sharing)       | [link](PointRCNN/pointrcnn_attention/tools/cfgs/default.yaml) |
 |  KITTI  -> nuScenes | [download](https://drive.google.com/file/d/1bvdmnSQPEds2St9g7QJnJkkcUyY2Ye8V/view?usp=sharing)        | [link](PointRCNN/pointrcnn_attention/tools/cfgs/default.yaml) |
 |  nuScenes -> KITTI| [download](https://drive.google.com/file/d/1VptyJk3j62s22IP_3R9SzBoWhErz07Ov/view?usp=sharing)        | [link](PointRCNN/pointrcnn_attention/tools/cfgs/default.yaml) |
-
-
-Follow the instructions to implement the method in the folders [SECOND-iou](SECOND-iou/README.md) and [PointRCNN](PointRCNN/README.md)
 
 
 
@@ -129,3 +126,6 @@ Choose the best performing model from the previous step and use it as the source
   ```
     python tools/test.py --cfg tols/cfgs/${PATH_TO_CONFIG_FILE} --extra_tag {PREFERRED_NAME} --ckpt {PATH_TO_CKPT}
   ```
+
+
+
